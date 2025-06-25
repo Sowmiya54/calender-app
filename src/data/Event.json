@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Team Meeting",
+    "date": "2025-06-25",
+    "time": "10:00 AM",
+    "duration": "1 hour"
+  },
+  {
+    "title": "Doctor Appointment",
+    "date": "2025-06-24",
+    "time": "03:30 PM",
+    "duration": "30 minutes"
+  },
+  {
+    "title": "Morning Workout",
+    "date": "2025-06-27",
+    "time": "07:00 AM",
+    "duration": "1 hour"
+  },
+  {
+    "title": "Client Call",
+    "date": "2025-06-12",
+    "time": "02:00 PM",
+    "duration": "45 minutes"
+  },
+  {
+    "title": "Dinner with Family",
+    "date": "2025-06-28",
+    "time": "08:00 PM",
+    "duration": "2 hours"
+  }
+]

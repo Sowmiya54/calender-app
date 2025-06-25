@@ -1,0 +1,75 @@
+/* Overall Layout */
+.calendar-page {
+  overflow-y: hidden;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f7f9fc;
+}
+
+/* Sidebar (Both Left and Right) */
+.sidebar {
+  width: 220px;
+  background-color: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li::before {
+  content: '➤';
+  margin-right: 8px;
+  color: #3498db;
+}
+
+/* Calendar Center */
+.main-calendar {
+  flex: 1;
+}
+
+/* Quote Box on Left */
+.quote-box {
+  background-color: #f1f9ff;
+  border-left: 4px solid #3498db;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Reminder Box on Right */
+.reminder-box {
+  background-color: #fff9e6;
+  border-left: 4px solid #f39c12;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.reminder-box h4 {
+  margin: 0 0 8px;
+}
+
